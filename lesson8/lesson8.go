@@ -16,5 +16,6 @@ func main() {
 
 	/*var c []string
 	var d []int = make([]int, 3)
-	var e []int = make([]int, 3, 4)*/
+	var e []int = make([]int, 3, 4)
+	var f = []int{1, 2, 3}*/
 }
