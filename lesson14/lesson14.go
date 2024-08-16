@@ -31,4 +31,8 @@ func main() {
 	default:
 		fmt.Println("a value null")
 	}
+
+	var a1 []string
+	a1 = append(a1, "123")
+	a1 = append(a1, "45e")
 }
