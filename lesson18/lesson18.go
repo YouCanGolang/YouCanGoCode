@@ -61,5 +61,7 @@ func main() {
 		}
 	}()
 
+	var mu sync.Mutex
+	mu.Lock()
 	wg.Wait()
 }
